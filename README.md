@@ -34,5 +34,5 @@ Try out the application at: https://unifriendsjsu.herokuapp.com/home/
 
 ******* Here is a basic flowchart of UniFriend**********
 
-![UniFriend Basic Flow Chart](https://github.com/reshmagiliyal/Uni_Friend_Integrated/Picture1.png) 
+![UniFriend Basic Flow Chart](https://github.com/reshmagiliyal/Uni_Friend_Integrated/blob/master/Picture1.png) 
 
