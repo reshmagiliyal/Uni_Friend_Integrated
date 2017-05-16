@@ -25,7 +25,7 @@ SECRET_KEY = 'xe$x&(-@9ayvz2nqhqq0kdp6wqm4066v0lww$79%j4pf!znk-!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["unifriendsjsu.herokuapp.com"]
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'course_recommendation.apps.CourseRecommendationConfig',
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
@@ -133,8 +134,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# STATICFILES_DIRS = (
-#     os.path.join(BASE_DIR, 'static'),
+ STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
 #     # '/var/www/static/'
-# )
-# STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),"static_cdn")
+ )
+ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),"static_cdn")
+ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
