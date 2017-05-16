@@ -32,3 +32,7 @@ make the best out of what university provides.
 
 Try out the application at: https://unifriendsjsu.herokuapp.com/home/
 
+******* Here is a basic flowchart of UniFriend**********
+
+![UniFriend Basic Flow Chart](https://github.com/reshmagiliyal/Uni_Friend_Integrated/Picture1.png) 
+
